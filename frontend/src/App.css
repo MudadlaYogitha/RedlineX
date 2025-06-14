@@ -1,0 +1,50 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-section {
+  background-image: url("https://th.bing.com/th/id/R.387d58c57813325803bb9ac4ffc09c82?rik=4iSD7NF9X5NERw&riu=http%3a%2f%2fmilestonepromotion.com%2fimg%2facquire.gif&ehk=AZa%2bsH8e0QqFr7MXNvRbSltQg1FLka5Wp%2b7emmHjD9c%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  min-height: 100vh;
+}
+
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.88);
+  min-height: 100vh;
+}
+
+.app-card {
+  max-width: 700px;
+  background-color: #1e1e2e;
+  padding: 2rem;
+  border: none;
+}
+
+.form-label-light {
+  color: #bbb;
+}
+
+.form-control-dark {
+  background-color: #2a2a3a;
+  color: #eee;
+  border: 1px solid #444;
+}
+
+.form-control-dark:focus {
+  border-color: #17a2b8;
+  box-shadow: none;
+}
+
+.report-body {
+  max-height: 60vh;
+  overflow-y: auto;
+  padding: 1rem;
+}
